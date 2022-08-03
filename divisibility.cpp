@@ -5,7 +5,7 @@ int re(int a,int b)
 {
     while(a%b!=0)
     {
-       a+=1;
+       a=a+1;
     }
     return a;
     
